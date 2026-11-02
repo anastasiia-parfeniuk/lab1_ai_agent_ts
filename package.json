@@ -1,0 +1,18 @@
+{
+  "name": "lab1-ai-agent-ts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторна робота №1: AI-агент для автоматизації розробки та CI/CD (варіант 6)",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/hello.js",
+    "test": "vitest run",
+    "check": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
